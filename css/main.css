@@ -23,23 +23,34 @@ html {
 .nav a {
   text-decoration: none;
   color: #fff;
+  border: 3px solid #2d5a4d;
+  background-image: linear-gradient(to bottom, #588477, #467366);
+  border-radius: 8px;
 }
 
 .nav a:hover {
-
+  background-image: url("../images/leaf-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 50px auto;
+  background-position: center;
+  padding-left: .75em;
+  color: rgba(16, 52, 41, .8);
+  background-color: #fff;
 }
 
 .banner {
   background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .banner-content {
-  padding-top: 60px;
   color: #fff;
   border-top: 3px solid #2d5a4d;
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
   background-size: 64px auto;
+  border-bottom: 3px solid #145b1d;
 }
 
 @media only screen and (min-width: 60em) {
