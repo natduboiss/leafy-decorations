@@ -1,6 +1,5 @@
 html {
   font-family: Lora, serif;
-  background-color:
 }
 
 .masthead {
@@ -9,7 +8,8 @@ html {
   background-repeat: repeat;
   background-size: 64px auto;
   background-position: left center;
-  background-color: #588477
+  background-color: #588477;
+  color: #fff;
 }
 
 .logo {
@@ -22,6 +22,7 @@ html {
 
 .nav a {
   text-decoration: none;
+  color: #fff;
 }
 
 .nav a:hover {
@@ -33,8 +34,12 @@ html {
 }
 
 .banner-content {
+  padding-top: 60px;
   color: #fff;
   border-top: 3px solid #2d5a4d;
+  background-image: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-size: 64px auto;
 }
 
 @media only screen and (min-width: 60em) {
