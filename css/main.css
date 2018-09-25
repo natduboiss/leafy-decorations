@@ -41,16 +41,20 @@ html {
 .banner {
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 400px 630px;
+  background-position: center;
 }
 
 .banner-content {
+  padding-top: 350px;
   color: #fff;
   border-top: 3px solid #2d5a4d;
+  border-bottom: 3px solid #145b1d;
+  position: relative;
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
   background-size: 64px auto;
-  border-bottom: 3px solid #145b1d;
+  background-position: left center;
 }
 
 @media only screen and (min-width: 60em) {
