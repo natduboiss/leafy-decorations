@@ -42,6 +42,7 @@ html {
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .banner-content {
@@ -49,11 +50,10 @@ html {
   color: #fff;
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #145b1d;
-  position: relative;
-  background: url("../images/two-leaves.svg");
+  background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
-  background-size: 100px auto;
   background-position: left center;
+  background-size: 100px auto;
 }
 
 @media only screen and (min-width: 60em) {
