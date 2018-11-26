@@ -3,13 +3,12 @@ html {
 }
 
 .masthead {
-  background-image: url("../images/leaf-bg.svg");
-  border-top: 3px solid #2d5a4d;
-  background-repeat: repeat;
-  background-size: 64px auto;
-  background-position: left center;
-  background-color: #588477;
   color: #fff;
+  background-image: url("../images/leaf-bg.svg");
+  background-color: #588477;
+  background-size: 64px;
+  border-top: 3px solid #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
 }
 
 .logo {
@@ -21,39 +20,47 @@ html {
 }
 
 .nav a {
-  text-decoration: none;
-  color: #fff;
+  background-color: #467366;
   border: 3px solid #2d5a4d;
-  background-image: linear-gradient(to bottom, #588477, #467366);
   border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav a:hover {
-  background-image: url("../images/leaf-icon.svg");
-  background-repeat: no-repeat;
-  background-size: 50px auto;
-  background-position: center;
-  padding-left: .75em;
-  color: rgba(16, 52, 41, .8);
+  color: #145b1d;
   background-color: #fff;
+  background-image: url("../images/leaf-icon.svg");
+  background-size: 64px;
+  background-repeat: no-repeat;
 }
 
 .banner {
-  background-image: url("../images/banner.jpg"),linear-gradient(to bottom, rgba(16, 52, 41, .8), transparent);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 80%, rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #145b1b;
 }
 
 .banner-content {
-  padding-top: 300px;
-  color: #fff;
-  border-top: 3px solid #2d5a4d;
-  border-bottom: 3px solid #145b1d;
   background-image: url("../images/two-leaves.svg");
+  background-size: 6em;
+  background-position: 1em 11em;
   background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 100px auto;
+  color: #fff;
+  padding-top: 18.75em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-content {
+    background-size: 5em;
+    background-position: .75em 10.75em;
+    padding-top: 17em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -64,6 +71,25 @@ html {
 
   .nav {
     text-align: right;
+  }
+
+  .banner {
+    background-position: bottom;
+  }
+
+  .banner-content {
+    background-position: .75em 9.5em;
+    padding-top: 15.75em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-content {
+    background-size: 4.5em;
+    background-position: .75em 8.5em;
+    padding-top: 14.35em;
   }
 
 }
